@@ -1,0 +1,20 @@
+Pipeline{					--------->Top-level(script starts )
+	agent any				--------->Where to build/run jenkins job
+	stages{					--------->where work happens (here specify the activities to do)
+		 stage("build"){	--------->what exactly to do in job
+				steps{
+				   echo "this is for building"
+				}		
+			}
+		 stage("test"){	
+				steps{
+				  echo "this is for testing"
+				}		
+			}
+		 stage("deploy"){	
+				steps{
+				   echo "this is for deploying"
+				}		
+			}
+		}
+	}
