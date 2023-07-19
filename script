@@ -20,3 +20,12 @@ Pipeline{					--------->Top-level(script starts )
 	}
 
 scripted pipeline:
+
+
+here code starts with node
+
+node{
+  stage(){
+		//groovy script
+	}
+  }
